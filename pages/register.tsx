@@ -63,7 +63,7 @@ const handleSubmit = (event: FormEvent<HTMLFormElement>)=>{
                 <button onClick={()=>setNome(nome.toUpperCase())}>Muda o Nome</button> */}
              {/*'O State contador vale: ' + contador*/ }
 
-                <TextField margin="normal" required  fullWidth id="nome" label="Digite o nome" name="nome" autoComplete="nome"/>
+                <TextField margin="normal" required  fullWidth id="name" label="Digite o nome" name="nome" autoComplete="nome" autoFocus/>
                 <TextField margin="normal" required  fullWidth id="email" label="Digite o e-mail" name="email" autoComplete="email" autoFocus/>
                 <TextField margin="normal"  required fullWidth id="password" type="password" label="Digite a senha" name="password" autoComplete="current-password" autoFocus/>
                 <FormControlLabel control={<Checkbox value="remember" color="primary" />} label="Aceito os termos..." />
