@@ -6,6 +6,7 @@ import ExtractHeader from '../ExtractHeader';
 import db from '../utils/db';
 
 
+// no extract content e extract data estilizar
 const ExtractContentContainer = styled.section`
   display: flex;
   flex-direction: column;

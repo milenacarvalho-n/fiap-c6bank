@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 
-const [nome, setNome] = useState('');
+const [nome, setNome] = useState<string>('');
 const [contador, setContador] = useState<number>(5);
 
 useEffect(()=>{
